@@ -1,0 +1,122 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: beige;
+    line-height: 1.5;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.containerTop {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 10%;
+}
+
+.containerTop img {
+    align-self: flex-start;
+    margin-right: 20px;
+    width: 240px;
+    height: 200px;
+}
+
+.containerTop .nom,
+.metier,
+.skills {
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+header {
+    flex: 1 1 auto;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    top: 210px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.end {
+    display: flex;
+    flex-direction: column;
+    margin-left: 600px;
+    justify-content: space-around;
+}
+
+main {
+    margin-left: 400px;
+    margin-top: 80px;
+}
+
+footer {
+    margin-left: 400px;
+    margin-top: 290px;
+}
+
+@media only screen and (max-width: 768px) {
+    .all {
+      flex-direction: column;
+    }
+  
+    .containerTop {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .containerTop .nom,
+    .metier,
+    .skills {
+      margin-top: 10px;
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    aside {
+      position: static;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    main {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    footer {
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 30px;
+    }
+    .end {
+        margin-left: 0;
+    }
+    p {
+        text-align: start;
+    }
+  }
+  
