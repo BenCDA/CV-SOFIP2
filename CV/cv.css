@@ -1,7 +1,8 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #EFE2BA;
+    background-color: #C2B9B0;
     line-height: 1.5;
+    color:#7E685A;
 }
 
 .all {
@@ -22,7 +23,7 @@ img:hover {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #7E685A
 }
 
 .containerTop {
@@ -91,7 +92,7 @@ footer {
 h1, 
 h2,
 h3 {
-    color: #F13C20;
+    color: #E7717D;
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
