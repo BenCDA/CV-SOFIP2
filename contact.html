@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="contact.css">
   <link rel="stylesheet" href="navBar.css">
+  <link rel="stylesheet" href="footer.css">
   <title>Document</title>
 </head>
 
@@ -18,36 +19,22 @@
         <img src="modele-conception-logo-film-camera-cinema_527727-210.avif" alt="Logo cinéma">
       </div> -->
       <ul>
-        <a href="accueil-cinema.html">
-          <li>Accueil</li>
-        </a>
-        <a href="acteurs.html">
-          <li>Acteur</li>
-        </a>
-        <a href="contact.html">
-          <li>Contacts</li>
-        </a>
-        <a href="films.html">
-          <li>Film</li>
-        </a>
+        
+        <li> <a href="accueil-cinema.html">Accueil </a></li>
+        
+        
+        <li> <a href="acteurs.html"> Acteur </a></li>
+      
+     
+        <li>  <a href="contact.html"> Contacts</a></li>
+      
+     
+        <li>  <a href="films.html"> Films</a></li>
+        
       </ul>
     </nav>
   </header>
-  <main>
-    <div class="pseudoNav">
-      <ul>
-        <a href="">
-          <li>Dernier film sortie</li>
-        </a>
-        <a href="">
-          <li>Acteurs populaire</li>
-        </a>
-        <a href="">
-          <li>Derniere Actualité lié au cinéma</li>
-        </a>
-      </ul>
-    </div>
-  </main>
+  
   <article class="formulaire">
     <section class="main-contact">
       <div class="titreContact">
@@ -58,7 +45,7 @@
         <p class="marge-paragraphe">Vous avez une question ? Votre réponse se trouve peut-être <a href="f
                   ">ici</a>
         </p>
-        <form action="">
+        <form>
           <div class="formu">
             <label for="nom">Votre nom<span>*</span></label><br>
             <input type="text" name="nom" id="nom" required><br>
@@ -84,7 +71,9 @@
           </div>
 
           <div class="boutonEnvoyerContact">
-            <input class="buttonContact" type="submit" value="ENVOYER LE MESSAGE">
+            <button class="buttonContact" type="submit">ENVOYER LE MESSAGE</button>
+
+
           </div>
 
         </form>
@@ -93,7 +82,28 @@
 
     </section>
   </article>
-  <footer></footer>
+  <footer>
+
+    <!--  Mettre informations de contact et liens vers les réseaux dans le footer-->
+    <div class="contact">
+        <ul>
+            <li>Téléphone : 00 00 00 00 00</li>
+            <li>E-mail : lecinema@orange.fr</li>
+        </ul>
+
+
+
+        <ul>
+            <li> <a href="facebook.com">Facebook</a></li>
+            <li> <a href="twitter.com">Twitter</a></li>
+            <li> <a href="instagram.com">Instagram</a></li>
+            
+
+        </ul>
+    </div>
+
+</footer>
+
 
 </body>
 
