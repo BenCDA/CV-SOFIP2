@@ -1,35 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
     <link rel="stylesheet" href="accueil-cinema.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="navBar.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
+
 <body>
 
-    <!-- <header> -->
-    <!-- SLIDER -->
-     <div class="slider">
 
-        <img src="images/heat-al-pacino-40x56cm-affiche-originale-cin.jpg" alt="Affiche de HEAT">
-        <img src="images/le-seigneur-des-anneaux.jpg" alt="Affiche du Seigneur des Anneaux">
-        <img src="images/leon.jpg" alt="Affiche de Leon">
-        <img src="images/pulp-fiction-cover.jpg" alt="Affiche de Pulp Fiction">
-        <span class="arrow prev">&#10094;</span>
-        <span class="arrow next">&#10095;</span>
-    </div>
- </header> 
 
-<nav>
-    <ul>
-        <li> <a href="acteurs.html">ACTEURS</a> </li>
-        <li> <a href="films.html">FILMS</a> </li>
-        <li> <a href="contact.html">CONTACTS</a></li>
-    </ul>
-</nav>
+    <nav>
+        <!-- <div class="logoNav">
+            <img src="modele-conception-logo-film-camera-cinema_527727-210.avif" alt="Logo cinéma">
+          </div> -->
+        <ul>
+            <a href="accueil-cinema.html">
+                <li>Accueil</li>
+            </a>
+            <a href="acteurs.html">
+                <li>Acteur</li>
+            </a>
+            <a href="contact.html">
+                <li>Contacts</li>
+            </a>
+            <a href="films.html">
+                <li>Film</li>
+            </a>
+        </ul>
+    </nav>
 
-    <script src="slider.js"></script> 
+
+
+    <header>
+        <!-- SLIDER -->
+        <div class="slider">
+
+            <img src="images/heat-al-pacino-40x56cm-affiche-originale-cin.jpg" alt="Affiche de HEAT">
+            <img src="images/le-seigneur-des-anneaux.jpg" alt="Affiche du Seigneur des Anneaux">
+            <img src="images/leon.jpg" alt="Affiche de Leon">
+            <img src="images/pulp-fiction-cover.jpg" alt="Affiche de Pulp Fiction">
+            <span class="arrow prev">&#10094;</span>
+            <span class="arrow next">&#10095;</span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Première section -->
+        <div class="infosFilms">
+            <section>
+                <h2>
+                    Léon
+                </h2>
+                <p>
+                    Un tueur à gages répondant au nom de Léon prend sous son aile Mathilda, une petite fille de 12 ans,
+                    seule rescapée du massacre de sa famille. Bientôt, Léon va faire de Mathilda une `nettoyeuse', comme
+                    lui. La jeune fille pourra alors venger son petit frère.
+                    Date de sortie : 14 septembre 1994 (France)
+                    Réalisateur : LUC BESSON
+                </p>
+            </section>
+
+            <section>
+                <h3>
+                    Pulp Fiction
+                </h3>
+                <p>
+                    L'odyssée sanglante et burlesque de petits malfrats dans la jungle de Hollywood à travers trois
+                    histoires qui s'entremêlent. Dans un restaurant, un couple de jeunes braqueurs, Pumpkin et Yolanda,
+                    discutent des risques que comporte leur activité. Deux truands, Jules Winnfield et son ami Vincent
+                    Vega, qui revient d'Amsterdam, ont pour mission de récupérer une mallette au contenu mystérieux et
+                    de la rapporter à Marsellus Wallace.
+                    Date de sortie : 26 octobre 1994 (France)
+                    Réalisateur : Quentin Tarantino
+                </p>
+            </section>
+
+            <section>
+                <h4>
+                    Le Seigneur des Anneaux
+                </h4>
+                <p>
+                    Le Seigneur des anneaux est une trilogie cinématographique américano-néo-zélandaise de fantasy
+                    réalisée par Peter Jackson et fondée sur le roman du même nom en trois volumes de J. R. R. Tolkien.
+                    Les films composant cette trilogie sont La Communauté de l'anneau, Les Deux Tours et Le Retour du
+                    roi.
+                    Date de sortie : 2001 (France)
+                    Réalisateur : Peter Jackson
+                </p>
+            </section>
+
+
+            <section>
+                <h5>
+                    HEAT
+                </h5>
+                <p>
+                    La bande de Neil McCauley à laquelle est venu se greffer Waingro, une nouvelle recrue, attaque un
+                    fourgon blindé pour s'emparer d'une somme importante en obligations. Cependant, ce dernier tue
+                    froidement l'un des convoyeurs et Chris Shiherlis se retrouve obligé de terminer le travail. Neil
+                    tente d'éliminer Waingro, mais celui-ci parvient à s'échapper. Parallèlement, le lieutenant Vincent
+                    Hanna mène l'enquête.
+                    Date de sortie : 21 février 1996 (France)
+                    Réalisateur : Michael Mann
+                </p>
+            </section>
+        </div>
+    </main>
+
+
+    <footer>
+
+        <!--  Mettre informations de contact et liens vers les réseaux dans le footer-->
+        <div class="contact">
+            <ul>
+                <li>Téléphone : 00 00 00 00 00</li>
+                <li>E-mail : lecinema@orange.fr</li>
+            </ul>
+
+
+
+            <ul>
+                <li> <a href="facebook.com">Facebook</a></li>
+                <li> <a href="twitter.com">Twitter</a></li>
+                <li> <a href="instagram.com">Instagram</a></li>
+                
+
+            </ul>
+        </div>
+
+    </footer>
+
+
+    <script src="slider.js"></script>
 </body>
+
 </html>
