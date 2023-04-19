@@ -133,7 +133,6 @@ header {
     /* styles pour les écrans plus petits que 768px de largeur */
     .slider {
       height: 300px;
-      width: 690px  ;
     }
     .infosFilms {
       display: flex;
