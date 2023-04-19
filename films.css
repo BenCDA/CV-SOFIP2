@@ -17,31 +17,36 @@ a {
 
 
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    
-        max-width: 800px;
-        margin: 0 auto;
-      
-      
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.first, .second {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+  margin-bottom: 10px;
+}
+
+.first img, .second img {
+  max-width: 250px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 10px;
+}
+
+
   
-  .infosFilms {
-    max-width: 800px;
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 40px;
-  }
   
-  section {
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-  }
   
   h2, h3, h4, h5 {
     margin-top: 0;
@@ -70,6 +75,12 @@ main {
     section {
       width: 100%;
     }
+    .first, .second {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+      justify-items: center;
+    }
   }
   
   @media screen and (max-width: 768px) {
@@ -83,8 +94,11 @@ main {
     section {
       width: 100%;
     }
+    .first, .second {
+      
+      padding: 2%;
   }
-  
+   }
   @media screen and (max-width: 480px) {
     /* styles pour les écrans plus petits que 480px de largeur */
     
@@ -100,6 +114,12 @@ main {
       flex-direction: column;
       align-items: center;
       gap: 1rem;
+    }
+    .first img, .second img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
     }
   }
   
