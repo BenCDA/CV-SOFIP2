@@ -51,7 +51,9 @@ main {
     margin-bottom: 0;
   }
   
-
+  h2 {
+    text-decoration: underline;
+  }
 
 
 
