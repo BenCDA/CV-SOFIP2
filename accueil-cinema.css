@@ -133,6 +133,7 @@ header {
     /* styles pour les écrans plus petits que 768px de largeur */
     .slider {
       height: 300px;
+      width: 690px  ;
     }
     .infosFilms {
       display: flex;
@@ -145,6 +146,7 @@ header {
     main {
       padding: 0;
     }
+    
   }
   
   @media screen and (max-width: 480px) {
